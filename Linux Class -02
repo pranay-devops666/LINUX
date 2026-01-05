@@ -1,0 +1,72 @@
+LINUX Class -2 FILE COMMANDS
+
+FILE COMMANDS
+================
+
+touch filename:--------------------------------------> command to create a file
+touch file1 file2 file3: ----------------------------> command to create multiple files
+touch file{1..5}:------------------------------------> command to create files with serie sname
+rm filename:-----------------------------------------> command to remove a file
+rm -f filename:--------------------------------------> command to remove file forcefully
+rm -f file1 file2 file3:-----------------------------> command to remove multiple files at a time
+rm -f file{1..5}:------------------------------------> command to remove series files
+rm -f *:---------------------------------------------> command to remove all files
+rm -f*.txt:-------------------------------------------> command to remoe file names with .txt
+rm -f a*:---------------------------------------------> command to delete all file names starting with a letter
+
+
+FOLDER COMMANDS
+=====================
+mkdir foldername:--------------------------------------> command to create a folder
+mkdir folder1 folder2 folder3:-------------------------> command to create multiple folders
+mkdir folder{1..5}:------------------------------------> command to create folder series
+rm foldername:-----------------------------------------> command to remove folder
+rm folder1 folder2 folder3:----------------------------> command to remove multiple folders
+rm folder{1..5}:---------------------------------------> command to remove series type folders
+rmdir*: -----------------------------------------------> command to remove all empty directory folders
+rm -rf*: ----------------------------------------------> command to remove all files and folders and also it is used remove empty folders as well
+
+
+
+LIST THE FILES
+==================
+
+ll: -----------------> it is long list used to get the list of files
+ls:------------------> it is short list  used to get the list of files
+
+
+ll (vs) ls
+============
+ll: --------------------> will give the full information about files/folders
+ls: --------------------> it will give only file/folder names
+
+
+CHANGE DIRECTORY:
+===================
+
+cd foldername:--------------------------------> used to change directory
+cd :------------------------------------------> used to go to root directory
+cd ~:------------------------------------------> used to go to preious directory
+cd ../------------------------------------------> used to go to one folder back
+cd ../../------------------------------------------> used to to two folders back
+
+
+
+DIRECTORY COMMANDS:
+=========================
+
+mkdir folder1/folder2:----------------------> command to creates folder2 inside folder1
+ll folder1: --------------------------------> command to get list of files & folders which are present in folder1
+touch folder1/aws.txt: ---------------------> command to create file inside a folder
+mkdir -p aws/azure/gcpccit:-----------------> command to create parenting folder(folder inside the folder) automatically
+
+
+
+TIP OF THE DAY:
+=====================
+
+use tab to get the full file name or folder name 
+use upper-arrow to get previosly executed commands
+use ctrl+u to delete the entire command 
+use ctrl+u to go to end of the command
+use ctrl+a to go to starting of the command
