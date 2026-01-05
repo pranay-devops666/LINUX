@@ -1,0 +1,31 @@
+LINUX INTRODUCTION, SYSTEM AND HARDWARE COMMANDS
+
+
+In Linux we have different kinds of distributions are there
+REDHAT, UBUNUTU, AMAZON LINUX, KALI LINUX, SENT OS, DEBIAN These of different kinds of distributions 
+for all those base Operating system is LINUX only but there is a lit bit difference on those
+
+LINUX is secure and fast
+
+1. SYSTEM COMMANDS
+2. HARDWARE COMMANDS
+3. FILE COMMANDS
+4. NETWORK COMMANDS
+5. USER COMMANDS
+6. EDITORS
+7. PERMISSIONS
+8. SOFTWARE COMMANDS
+
+
+
+Launch Instance------>name:Linux------>instance type:t3.micro------>key pair----->MY Security Group------>8gb ebs volume--------> Launch Instance
+
+root: king of your system he can do anything at anytime at anywhere
+
+ec2-user: minister
+
+
+SYSTEM COMMANDS
+=================
+
+
