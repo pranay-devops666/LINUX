@@ -25,7 +25,40 @@ root: king of your system he can do anything at anytime at anywhere
 ec2-user: minister
 
 
-SYSTEM COMMANDS
+
+1. SYSTEM COMMANDS
 =================
+
+ls---------------------------------------------------> Long List
+uname------------------------------------------------> Used to  get the type of OS
+uname -r---------------------------------------------> Used to  get the kernal version of our OS
+uname -a---------------------------------------------> Used to  get the full information about OS
+clear: ----------------------------------------------> this command is used to clear the clear (or) you can use ctrl+l as a short cut
+uptime:----------------------------------------------> Used to  get the since how much long our system is in running state
+uptime -p: ------------------------------------------> Used to  get the this will give only uptime
+hostname:--------------------------------------------> Used to  get the private dns name of our system
+hostname-i:------------------------------------------> Used to  get the private ip of our system
+hostnamectl set-hostname "name"----------------------> Used to  change hostname with our preffer name
+ip addr: --------------------------------------------> Used to  get private ip
+ip route: -------------------------------------------> Used to  get private ip
+ip config: ------------------------------------------> Used to  get private ip
+date: -----------------------------------------------> Used to  get todays date
+timedatectl: ----------------------------------------> Used to  get time zones
+timedatectl set-timezone Asia/kolkota: --------------> used to change Timezone to IST
+who:-------------------------------------------------> used to see how many users have been loggin into your system
+whoami:----------------------------------------------> used to see the current user
+
+2. HARDWARE COMMANDS
+==========================
+lscpu:------------------------------> Used to  get "CPU" information our server
+top:--------------------------------> Used to  get "CPU" Utilization 
+df -h:------------------------------> Used to  get the 8 volume details (used,available)
+free:-------------------------------> Used to  get the free ram in our server
+free -m:----------------------------> Used to  convert the ram in MB
+free -h-----------------------------> Used to ram information in human redable format
+
+
+
+
 
 
