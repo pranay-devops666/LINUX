@@ -1,0 +1,42 @@
+LINUX CLASS -3
+
+LINUX: CAT, CP, VIM EDITOR
+
+CAT COMMANDS
+===============
+
+
+ll: used to see the list of files in order (A-Z)
+Il-t: used to see the list of the files based on modification/creation time
+Il-r: used to see the files in reverse order (Z to A)
+ll-a: used to see all files including hidden
+
+
+CAT COMMAND:
+cat command is used to read the data from a file, it is also used to append the data in a file
+cat filename: used to read the data from a file
+cat -n filename: used to read the data including line numbers of a file
+cat>filename: used to overwrite the data
+cat>>filename: used to append the data
+head filename: used to print first 10 lines of a file
+tail filename: used to print last 10 lines of a file
+head -5 filename: used to print first 5 lines of a file
+tail -7 filename: used to print last 7 lines of a file
+sed -n '3,15p' filename: used to print lines from 3 to 15
+sed -n '16p' filename: used to print 16th line of a file
+
+
+
+CP COMMAND: <cp source destination>
+
+cp command is used to copy the files or data from one place to another place
+ex: cp file1 file2
+
+
+By the above command, the data from file1 copies into file2. But the problem is it will overwrite the data which are present in file2.
+
+To overcome this issue we will use cat command.
+
+cat source_file (file1) >> destination_file (file2)
+
+
