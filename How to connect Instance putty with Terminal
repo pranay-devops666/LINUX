@@ -10,5 +10,40 @@ without Keypair ---------------> it will be present and maintained by server wha
 
 keypair has 2 types
 
-1. PEM keypair & PPK keypair
+1. PEM keypair (Putty doesn't support this PPK) ----------------> by using with this PEM keypair we can connect easily to any server directly terminal like mobaxterm, 
+vscode, command promt, git bash etc but for suppose if we want to connect with PUTTY means first we need to convert this PEM file into a PPK file with that PPK file we can 
+connect easily with putty 
+
+2. PPK (PUTTY PRIVATE KEY) keypair (Putty supports only this PPK file)----------------> 
+
+For suppose if we have PEM file means we can't connect with PUTTY it is not possibleprivate key 
+
+
+
+Steps to connect Instance putty with Terminal
+======================================================
+
+first create a instance pem keypair -------------> for that created instance both have public & private ips ------------> putty support PPK keypair here, we need to 
+convert PEM into a PPK file by using puttygen ----------> select puttygen and open it ------------> click on load ---------> select that PEM file click on ok-------->
+select save private key -----------> select yes --------> save the file in somwhere like downloads or any other folder with file name as as we wish ---------->
+done converted PEM into a PPK file 
+
+Now we can connect PPK file with putty easily -----> copy the public ip of instance ----------> select and open putty ------------> paste the publc ip of the instance
+----------> select SSH option and expand it --------------> again select Auth option and expand it ------------> selec credentials option --------------> select an 
+option browse select the PPK file select open and accept ---------------> connected with putty successfully ------------> login as given command ec2-user
+
+login as: ec2-user
+Authenticating with public key "imported-openssh-key"
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+[ec2-user@ip-172-31-29-124 ~]$
+
 
