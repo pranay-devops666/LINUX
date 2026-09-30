@@ -1,12 +1,16 @@
 How to connect Instance putty with Terminal
 
-Steps to connect Instance putty with Terminal
-======================================================
+We can create ec2-instance with two ways 
+1. with key pair ------------------> mostly prefered in real time, if we created a ec2-instance with keypair two keys will be get generated one is public key & 
+another one is private key generally the public key is maintaine by AWS cloud & private key will be present in our local systems like laptop/desktop for suppose when
+we are trying to connect the ec2-instance must be match with that both public key which present in the server  and private key which we have with us must be match 
+to get connect the ec2-instance without fail safe and secure 
+2. without keypair ---------------> it will be present and maintained by server what we are going to create
 
 
-with keypair ---------------> it will be present and maintained by AWS cloud
-without Keypair ---------------> it will be present and maintained by server what we are going to create
+In real time what purpose we are using is connect securely with putty 
 
+In real time 2 types of keypairs will be there
 
 keypair has 2 types
 
@@ -16,8 +20,7 @@ connect easily with putty
 
 2. PPK (PUTTY PRIVATE KEY) keypair (Putty supports only this PPK file)----------------> 
 
-For suppose if we have PEM file means we can't connect with PUTTY it is not possibleprivate key 
-
+For suppose if we have PEM file means we can't connect with PUTTY it is not possible private key 
 
 
 Steps to connect Instance putty with Terminal
