@@ -2,3 +2,13 @@ How to connect Instance putty with Terminal
 
 Steps to connect Instance putty with Terminal
 ======================================================
+
+
+with keypair ---------------> it will be present and maintained by AWS cloud
+without Keypair ---------------> it will be present and maintained by server what we are going to create
+
+
+keypair has 2 types
+
+1. PEM keypair & PPK keypair
+
