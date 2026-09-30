@@ -1,4 +1,5 @@
 How to connect Instance putty with Terminal
+==================================================
 
 We can create ec2-instance with two ways 
 1. with key pair ------------------> mostly prefered in real time, if we created a ec2-instance with keypair two keys will be get generated one is public key & 
@@ -50,3 +51,32 @@ Authenticating with public key "imported-openssh-key"
 [ec2-user@ip-172-31-29-124 ~]$
 
 
+
+How to connect Instance with Terminal
+==================================================
+
+How to connect Instance with Terminal
+first open terminal ---------> give command as cd Downloads -----------> in here we can see our created key pair -----------> select created 
+ec2-instance ----------> select connect  ---------> select option as ssh-client ---------> copy and pate 3 & 4th both commands in terminal -------> connected
+
+incase using powershell means follow the below steps to connect
+================================================================
+
+PS C:\Users\MY PC\Downloads>  dir *.pem ----------------------> enter
+
+PS C:\Users\MY PC\Downloads> ssh -i "terminal.pem" ec2-user@ec2-54-89-202-212.compute-1.amazonaws.com ----------------------> enter
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+[ec2-user@ip-172-31-17-44 ~]$ exit
+logout
+
+
+connected successfully and logged out successfully
